@@ -1,0 +1,18 @@
+﻿Név;Cím;Ár;Vízhőfok
+Gyulai Várfürdő;5700 Gyula, Várfürdő u. 1.;6000;36
+Harkányi Gyógyfürdő;7815 Harkány, Járó József u. 1.;7100;38
+Zalakarosi Fürdő;8749 Zalakaros, Thermál u. 4.;6300;40
+Sárvári Gyógy- és Wellnessfürdő;9600 Sárvár, Rákóczi u. 1.;6300;34
+Bükfürdő;9740 Bük, Termál tér 1.;6300;39
+Hévízi Gyógyfürdő;8380 Hévíz, Dr. Schulhof Vilmos sétány 1.;4500;27
+Saliris Thermal & Spa;3394 Egerszalók, Fürdő u. 3.;9700;68
+Zsóry Gyógy- és Strandfürdő;3400 Mezőkövesd, Zsóry-fürdő;4500;36
+Gyopárosi Gyógy- és Strandfürdő;5900 Orosháza, Gyopárosi út 1.;3000;38
+Tiszaújvárosi Gyógy- és Strandfürdő;3580 Tiszaújváros, Fürdő u. 1.;6000;65
+Keszthelyi Helikon Strandfürdő;8360 Keszthely, Helikon u. 22.;900;17
+Balatonfüredi Annagora Aquapark;8230 Balatonfüred, Fürdő u. 3.;5500;32
+Zalaszentgróti Gyógy- és Strandfürdő;8780 Zalaszentgrót, Fürdő u. 1.;4200;38
+Kiskunmajsai Gyógy- és Strandfürdő;6120 Kiskunmajsa, Fürdő u. 1.;3000;38
+Kiskunhalasi Gyógy- és Strandfürdő;6400 Kiskunhalas, Fürdő u. 1.;2000;38
+Kiskunfélegyházi Gyógy- és Strandfürdő;6100 Kiskunfélegyháza, Fürdő u. 1.;2600;38
+Makói Hagymatikum;6900 Makó, Táncsics Mihály u. 1.;5900;38

@@ -1,0 +1,40 @@
+﻿<Window x:Class="StrandWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Fürdők" Height="450" Width="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Margin="10">
+            <TextBlock Text="Fürdő adatai" FontSize="20" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Név:" Margin="0,0,0,5"/>
+            <TextBox x:Name="nevTextBox" IsReadOnly="True" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Cím:" Margin="0,0,0,5"/>
+            <TextBox x:Name="cimTextBox" IsReadOnly="True" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Ár:" Margin="0,0,0,5"/>
+            <TextBox x:Name="arTextBox" IsReadOnly="True" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Vízhőfok:" Margin="0,0,0,5"/>
+            <TextBox x:Name="vizhofokTextBox" IsReadOnly="True" Margin="0,0,0,10"/>
+
+            <ProgressBar x:Name="vizhofokProgressBar" Minimum="0" Maximum="100" Margin="0,0,0,10"/>
+
+            <Button x:Name="mentesButton" Content="Mentés" Margin="10" Padding="5" Click="MentesButton_Click"/>
+        </StackPanel>
+
+        <DataGrid Grid.Column="1" x:Name="furdoDataGrid" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="FurdoDataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Név" Binding="{Binding Nev}"/>
+                <DataGridTextColumn Header="Cím" Binding="{Binding Cim}"/>
+                <DataGridTextColumn Header="Ár" Binding="{Binding Ar}"/>
+                <DataGridTextColumn Header="Vízhőfok" Binding="{Binding Vizhofok}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
