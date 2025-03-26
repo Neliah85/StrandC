@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrandC", "StrandC.csproj", "{D88A3C53-558F-44C8-B35D-ECABF383D278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrandCTest", "..\StrandCTest\StrandCTest.csproj", "{448E4AB5-AD3F-4957-B764-D25726CB9BED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrandWPF", "..\StrandWPF\StrandWPF.csproj", "{0CCE9EAF-BF68-4C55-B392-03AFDB9B8250}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D88A3C53-558F-44C8-B35D-ECABF383D278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88A3C53-558F-44C8-B35D-ECABF383D278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88A3C53-558F-44C8-B35D-ECABF383D278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88A3C53-558F-44C8-B35D-ECABF383D278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448E4AB5-AD3F-4957-B764-D25726CB9BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448E4AB5-AD3F-4957-B764-D25726CB9BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448E4AB5-AD3F-4957-B764-D25726CB9BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448E4AB5-AD3F-4957-B764-D25726CB9BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CCE9EAF-BF68-4C55-B392-03AFDB9B8250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCE9EAF-BF68-4C55-B392-03AFDB9B8250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCE9EAF-BF68-4C55-B392-03AFDB9B8250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCE9EAF-BF68-4C55-B392-03AFDB9B8250}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC19F5F8-9B97-459B-AC12-410D548FA62A}
+	EndGlobalSection
+EndGlobal
